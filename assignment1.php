@@ -46,12 +46,12 @@ Placeat excepturi exercitationem enim explicabo. Sequi!";
     $name = "mohamed Khaled";
      /**Search for PHP built-in function to reverse this string and type the
       new string in h5.*/
-     echo $rev_name=strrev($name);
+     echo $new_name=strrev($name);
      ?></h5>
     <?php 
     //Search for PHP built-in function to compare between the reversed
     //string and this variable
-    echo strcmp($name,$rev_name);
+    echo strcmp($name,$new_name);
     ?>
     <br>
     <?php
