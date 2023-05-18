@@ -85,7 +85,7 @@ Placeat excepturi exercitationem enim explicabo. Sequi!";
     <?php
     $name0='Morad';
      //Double-quoted string once using (escaping characters)
-     echo "Hello “my name is {$name0}” <br>I love programming \ Back-End is easy &nbsp &nbsp &nbsp &nbsp PHP is awesome".'<br>';
+     echo "Hello “my name is {$name0}” <br>I love programming \ Back-End is easy". str_repeat('&nbsp',15)."  PHP is awesome".'<br>';
       echo'<br>';
      //once again using HEREDOC
      echo <<<TEXT
